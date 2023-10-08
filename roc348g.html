@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Rocket Launching</title>
+    <style>
+        img{
+            width: 100px;
+            position: relative;
+            left:50%;
+            transform: translatey(190%);
+            animation: fly 3s 1s ease-in-out infinite;
+        }
+        @keyframes fly{
+            0%{
+                transform: translateY(200%);
+            }
+            100%{
+                transform: translateY(-100vh);
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        <img src="/rocketimg.jpg" alt="rocketimg">
+    </div>
+</body>
+</html>
